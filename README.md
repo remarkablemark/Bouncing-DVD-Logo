@@ -24,7 +24,7 @@ cd Bouncing-DVD-Logo
 Start a static server:
 
 ```sh
-python -m SimpleHTTPServer
+python3 -m http.server
 ```
 
 Open http://localhost:8000/:
