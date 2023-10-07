@@ -2,9 +2,13 @@ html,
 body,
 main,
 canvas {
-  background: #111;
   border: 0;
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+/* https://github.com/processing/p5.js/issues/2619 */
+canvas {
+  display: block;
 }
